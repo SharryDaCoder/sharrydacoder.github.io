@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Sharon Igwe • Cloud Portfolio</title>
+<link rel="stylesheet" href="styles.css"/>
+<meta name="description" content="Cloud & Solutions Architecture portfolio of Sharon Igwe"/>
+</head>
+<body>
+<nav class="nav">
+<div class="brand"><a href="index.html">Sharon Igwe • Cloud</a></div>
+<div class="links">
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="labs.html">Labs</a>
+<a href="case-studies.html">Case Studies</a>
+<a href="blog.html">Blog</a>
+<a class="btn" href="contact.html">Resume & Contact</a>
+</div>
+</nav>
+<div class="container">
+<section class="section">
+<h2>Resume & Contact</h2>
+<p>Add your PDF resume to <code>/assets/resume.pdf</code> and link below.</p>
+<p><a class="btn" href="assets/resume.pdf">Download Resume</a></p>
+<form>
+<label>Name<input placeholder="Your name"/></label>
+<label>Email<input placeholder="you@domain.com"/></label>
+<label>Message<textarea rows="5" placeholder="Hi Sharon, I’d like to chat about a Cloud role..."></textarea></label>
+<button class="btn" type="button">Send via Email Client</button>
+</form>
+<p>Or reach me on <a href="https://www.linkedin.com">LinkedIn</a> & <a href="https://github.com">GitHub</a>.</p>
+</section>
+</div>
+<footer class="footer">© 2025 • Built with GitHub Pages • AWS CLF‑C02 | ITIL v4</footer>
+</body>
+</html>

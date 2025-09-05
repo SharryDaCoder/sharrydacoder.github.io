@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Sharon Igwe • Cloud Portfolio</title>
+<link rel="stylesheet" href="styles.css"/>
+<meta name="description" content="Cloud & Solutions Architecture portfolio of Sharon Igwe"/>
+</head>
+<body>
+<nav class="nav">
+<div class="brand"><a href="index.html">Sharon Igwe • Cloud</a></div>
+<div class="links">
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="labs.html">Labs</a>
+<a href="case-studies.html">Case Studies</a>
+<a href="blog.html">Blog</a>
+<a class="btn" href="contact.html">Resume & Contact</a>
+</div>
+</nav>
+<div class="container">
+<section class="section">
+<h2>About Me</h2>
+<p>Cloud‑curious problem solver with a BA/ITSM background. I translate business needs into resilient cloud designs and iterate through labs & case studies publicly.</p>
+<div class="grid">
+<div class="card">
+<h3>Certifications</h3>
+<p>AWS Certified Cloud Practitioner (CLF‑C02), ITIL v4</p>
+</div>
+<div class="card">
+<h3>Tooling</h3>
+<p>AWS, Python, SQL, Git/GitHub, CloudFormation, Linux, Postman</p>
+</div>
+<div class="card">
+<h3>Interests</h3>
+<p>Serverless, migrations, observability, cost optimization, AI + Cloud.</p>
+</div>
+</div>
+</section>
+</div>
+<footer class="footer">© 2025 • Built with GitHub Pages • AWS CLF‑C02 | ITIL v4</footer>
+</body>
+</html>
