@@ -24,27 +24,32 @@
 <h2>Projects</h2>
 <p>Case‑study style writeups with diagrams, trade‑offs, and links to code (as they become available).</p>
 <div class="grid">
-<div class="card" id="serverless-order">
-<h3>Serverless Order Processing</h3>
-<p>API Gateway → Lambda (validation) → SQS → Lambda (worker) → DynamoDB. Retry & DLQ patterns.</p>
-<p class="tags"><span class="tag">Lambda</span><span class="tag">SQS</span><span class="tag">DynamoDB</span><span class="tag">API GW</span><span class="tag">IaC</span></p>
-<a class="btn" href="#">Repo (soon)</a>
-</div>
-<div class="card" id="alb-asg">
-<h3>Autoscaling Web Tier on ALB</h3>
-<p>Launch Template + ASG behind an ALB with health checks and zero‑downtime deploy basics.</p>
-<p class="tags"><span class="tag">EC2</span><span class="tag">ALB</span><span class="tag">ASG</span><span class="tag">CloudWatch</span></p>
-<a class="btn" href="#">Docs</a>
-</div>
-<div class="card">
-<h3>Static S3 Website + CloudFront</h3>
-<p>Secure, cached static hosting with CI from GitHub.</p>
-<p class="tags"><span class="tag">S3</span><span class="tag">CloudFront</span><span class="tag">Route53</span></p>
-<a class="btn" href="#">Live (soon)</a>
-</div>
+  <div class="card" id="serverless-order">
+    <h3>Serverless Order Processing</h3>
+    <p>API Gateway → Lambda (validation) → SQS (buffer) → Lambda (worker) → DynamoDB. Retries, DLQ, basic metrics/alarms.</p>
+    <p class="tags"><span class="tag">Lambda</span><span class="tag">SQS</span><span class="tag">DynamoDB</span><span class="tag">API GW</span><span class="tag">IaC</span></p>
+    <a class="btn" href="#">Repo (soon)</a>
+    <!-- If/when you have a repo, swap # for your link, e.g.:
+    <a class="btn" href="https://github.com/SharryDaCoder/aws-serverless-order-processing-system">Repo</a> -->
+  </div>
+
+  <div class="card" id="alb-asg">
+    <h3>Autoscaling Web Tier on ALB</h3>
+    <p>Launch Template + ASG behind an ALB with health checks and zero-downtime-style iterations. Learned SG rules, target paths, and AZ design.</p>
+    <p class="tags"><span class="tag">EC2</span><span class="tag">ALB</span><span class="tag">ASG</span><span class="tag">CloudWatch</span></p>
+    <a class="btn" href="#">Docs</a>
+  </div>
+
+  <div class="card" id="s3-cf">
+    <h3>Static S3 Website + CloudFront</h3>
+    <p>Secure, cached static hosting with OAC, least-priv S3 bucket policy, and CI from GitHub.</p>
+    <p class="tags"><span class="tag">S3</span><span class="tag">CloudFront</span><span class="tag">Route 53</span></p>
+    <a class="btn" href="#">Live (soon)</a>
+  </div>
 </div>
 </section>
 </div>
 <footer class="footer">© 2025 • Built with GitHub Pages • AWS CLF‑C02 | ITIL v4</footer>
 </body>
 </html>
+
